@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo-footer{
+    width: 200px;
+}
+
+footer img {
+    width: 30px;
+}
+
+.content-footer {
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.redes a{
+    margin-left: 20px;
+}
+
+
+.criador {
+    margin: 1rem;
+    text-align: center;
+}
