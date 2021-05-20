@@ -1,8 +1,18 @@
 header {
+    position: fixed;
     width: 100%;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    z-index: 90000;
+    z-index: 90;
+}
+
+.hamburgue-icon{
+    display: none;
+    z-index: 99;
+}
+
+#menu-control {
+    display: none;
 }
 
 nav {
@@ -12,7 +22,6 @@ nav {
 
 .menu {
     display: flex;
-    flex-wrap: wrap;
     list-style: none;
     max-width: 1380px;
     margin: 0 auto;
@@ -45,6 +54,58 @@ nav {
     transition: all 0.3s ease-in;
     background-color: #000;
     color: #fff;
+}
+
+.separador {
+    height: 109px;
+}
+
+@media (max-width: 780px) {
+
+    .separador {
+        height: 61px;
+    }
+
+    .hamburgue-icon{
+        display: inline-flex;
+        right: 0;
+
+    }
+
+    nav {
+        border-top: none;
+    }
+
+    .menu {  
+        flex-direction: column;
+        flex-wrap: initial;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #fff;
+        height: 100%;
+        z-index: 1;
+        justify-content: center;
+        width: 200px;
+        transform: translatex(110%);
+        transition: transform 0.8s ease;
+    }
+
+    header{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 0 5%;
+        margin: 0 auto;
+    }
+}
+
+
+input:checked + nav .menu {
+    transform: translateX(10%);
 }
 
 

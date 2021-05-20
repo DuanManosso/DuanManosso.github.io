@@ -15,15 +15,15 @@
 
 </head>
 <body>
-    
     <header>
-        <a href="./index.html">
+        <a href="index.html">
             <img src="./assets/img/header/logo.png" alt="Logo">
         </a>
+        <input type="checkbox" id="menu-control" class="menu-control">
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="www.google.com">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="#">Biografia</a>
@@ -35,10 +35,17 @@
                 <li><a href="#">Radio</a></li>
                 <li><a href="#">Show Janelas Frente Sul</a></li>
             </ul>
+            
         </nav>
+        <label  class="hamburgue-icon" for="menu-control">
+            <img src="./assets/img/header/hamburger-icon.svg" alt="Abrir">
+        </label>
+        
     </header>
+    <div class="separador"></div>
     <section class="banner">
-       <img src="./assets/img/home/banner2.jpg" alt="banner">
+       <img class="banner-desktop" src="./assets/img/home/banner2.jpg" alt="banner">
+       <img class="banner-mobile" src="./assets/img/home/bannerMobile.jpg" alt="banner">
        <div class="sobreposicao">
            <div class="container titulo">
                <h1>Guto Agostini</h1>
@@ -99,7 +106,9 @@
         </div>
     </section>
     <footer>
-        <img class="logo-footer" src="./assets/img/header/logo.png" alt="logo guto agostini">
+        <a href="index.html">
+            <img class="logo-footer" src="./assets/img/header/logo.png" alt="logo guto agostini">
+        </a>
         <div class="container content-footer">
             <span>Telefone: (54) 9 9991-3905</span>
             <span>Email: gutovox@gmail.com</span>
@@ -113,6 +122,6 @@
         </div>
         <span>Acompanhe também nas redes sociais e plataformas musicais</span>
     </footer>
-    <p class="criador">Site Criado por duan.manosso@hotmail.com</p>
+    <p class="criador">Site criado por duan.manosso@hotmail.com</p>
 </body>
 </html>

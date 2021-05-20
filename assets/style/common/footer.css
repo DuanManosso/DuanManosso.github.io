@@ -35,3 +35,14 @@ footer img {
     margin: 1rem;
     text-align: center;
 }
+
+@media (max-width: 780px) {
+    .content-footer{
+        height: 250px;
+        flex-direction: column;
+    }
+
+    footer span {
+        text-align: center;
+    }
+}
