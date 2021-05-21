@@ -26,7 +26,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Biografia</a>
+                    <a href="./pages/biografia.html">Biografia</a>
                 </li>
                 <li><a href="#">Fotos</a></li>
                 <li><a href="#">Videos</a></li>
@@ -44,8 +44,8 @@
     </header>
     <div class="separador"></div>
     <section class="banner">
-       <img class="banner-desktop" src="./assets/img/home/banner2.jpg" alt="banner">
-       <img class="banner-mobile" src="./assets/img/home/bannerMobile.jpg" alt="banner">
+       <img class="banner-desktop" src="./assets/img/home/banner2.jpg" alt="">
+       <img class="banner-mobile" src="./assets/img/home/bannerMobile.jpg" alt="">
        <div class="sobreposicao">
            <div class="container titulo">
                <h1>Guto Agostini</h1>
@@ -53,7 +53,7 @@
                    com rádio e música desde meados dos anos de 1980. Este site
                    concentra informações gerais, carreira, imagens, vídeos e produções de áudio e musicais desde lá até os dias atuais.
                 </p>
-                <a href="#" class="bottom-link">
+                <a href="./pages/biografia.html" class="bottom-link">
                     <span>Sobre Guto</span>
                     <img src="./assets/img/home/triangle.svg" alt=" ">
                 </a>
@@ -63,7 +63,7 @@
     <section class="section-video">
         
         <div class="container centraliza-video">
-            <iframe src="https://www.youtube.com/embed/oBGTlkw8oXA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen></iframe>
+            <iframe id="video-intro" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen>Carregando...</iframe>
             <span>Canções que trazem o gosto e a emoção do gaúcho para os palcos</span>
         </div>
         
@@ -73,10 +73,9 @@
             <img src="./assets/img/albuns/capa-fim-de-ciclo.png" alt="Capa CD fim de ciclo">
             <div>
                 <h2>CD - FIM DE CICLO</h2>
-                <p>Cantautor, produtor de áudios e radialista, Guto Agostini está envolvido
-                    com rádio e música desde meados dos anos de 1980. Este site eletrônico
-                    concentra informações gerais, carreira, imagens, vídeos e produções de áudio e musicais desde lá até os dias atuais.
-                    </p>
+                <p>
+                    meu primeiro cd de músicas autorais. São 13 canções dentro da linha genericamente denominada MPG. O disco, primeiro fruto de um longo trabalho de auto-reinvenção musical, foi concebido pelo Financiarte – Financiamento Cultural da Prefeitura de Caxias do Sul - e gravado em 2015.
+                </p>
                 <a href="#" class="bottom-link">
                     <span>Ver Mais</span>
                     <img src="./assets/img/home/triangle.svg" alt=" ">
@@ -124,4 +123,9 @@
     </footer>
     <p class="criador">Site criado por duan.manosso@hotmail.com</p>
 </body>
+<script>
+    window.onload = function(){
+    document.getElementById('video-intro').src = 'https://www.youtube.com/embed/oBGTlkw8oXA?rel=0'
+    };
+</script>
 </html>

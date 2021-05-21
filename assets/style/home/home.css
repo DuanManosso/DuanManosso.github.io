@@ -24,16 +24,16 @@ section img {
 
 h1 {
     font-family: 'Comic Neue', Arial, cursive;
-    font-size: 66px;
+    font-size: 85px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
 .titulo p {
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
-    width: 70%;
+    width: 80%;
     margin-bottom: 40px;
 }
 
@@ -99,8 +99,15 @@ iframe {
     padding: 4em 0;
 }
 
+.conteudo-fim-de-ciclo h2 {
+    font-family: "Comic Neue", Arial, cursive;
+    font-size: 50px;
+}
+
 .conteudo-fim-de-ciclo > img {
-    width: 50%;
+    width: 540px;
+    height: 540px;
+    margin-left: 10px;
     border-radius: 30px;
     box-shadow: 0 0 10px 1px #000;
 }
@@ -113,7 +120,8 @@ iframe {
 .conteudo-fim-de-ciclo p {
     font-family: 'Roboto', Arial, sans-serif;
     padding: 2rem 0;
-    width: 90%;
+    width: 100%;
+    font-size: 20px;
 }
 
 .conteudo-fim-de-ciclo .bottom-link {
@@ -195,14 +203,34 @@ textarea:focus, input:focus {
 }
 
 @media (max-width: 1100px) {
+
+    .titulo p{
+        margin-bottom: 10px;
+    }
+
     iframe{
         width: 600px;
         height: 375px;
     }
 
+    .conteudo-fim-de-ciclo > img {
+        width: 360px;
+        height: 360px;
+    }
+
+    .conteudo-fim-de-ciclo h2{
+        font-size: 30px;
+    }
+
+    .conteudo-fim-de-ciclo p{
+        font-size: 15px;
+    }
+
     .contato {
         width: 600px;
     }
+
+
 }
 
 @media (max-width: 680px) {
@@ -257,7 +285,8 @@ textarea:focus, input:focus {
    }
 
    .conteudo-fim-de-ciclo img {
-       width: 100%;
+       width: 360px;
+       height: 360px;
    }
 
    .conteudo-fim-de-ciclo div {
@@ -286,4 +315,11 @@ textarea:focus, input:focus {
    }
 
 
+}
+
+@media (max-width: 400px) {
+    .conteudo-fim-de-ciclo > img {
+        width: 220px;
+        height: 220px;
+    }
 }

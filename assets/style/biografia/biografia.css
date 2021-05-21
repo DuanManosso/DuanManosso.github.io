@@ -1,0 +1,116 @@
+.origem-section {
+    background-color: #53553d;
+    padding: 3em 0;
+}
+
+
+.conteudo-direita {
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto, Arial, monospace;
+
+}
+
+.descricao h1{
+    font-size: 80px;
+    font-family: 'Comic Neue', Arial, cursive;
+    margin-bottom: 0.5em;
+}
+
+h2{
+    font-size: 60px;
+    font-family: 'Comic Neue', Arial, cursive;
+    margin-bottom: 0.5em;
+}
+
+.conteudo-direita img{
+    width: 380px;
+    height: 600px;
+    border-radius: 36px;
+    margin: 0;
+    align-self: center;
+}
+
+.conteudo-esquerda {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagens-duplas {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.imagens-duplas img{
+    width: 400px;
+    border-radius: 36px;
+}
+
+.descricao-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto, Arial, monospace;
+}
+
+.img2{
+    align-self: flex-end;
+}
+
+.bg-cinza {
+    background-color: #fcfcfc;
+}
+
+.cor-verde{
+    color: #53553d;
+}
+
+.container .h-350{
+    height: 340px;
+}
+
+.h-370 {
+    height: 380px;
+}
+
+.lado-lado{
+    flex-direction: row;
+    height: 380px;
+    align-content: center;
+}
+
+.lado-lado + div {
+    flex-direction: row;
+}
+
+.cima-baixo {
+    height: 620px;
+    justify-content: space-between;
+}
+
+.cima-baixo img{
+    height: 300px;
+}
+
