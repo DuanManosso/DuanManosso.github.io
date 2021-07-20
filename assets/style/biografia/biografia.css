@@ -100,3 +100,65 @@ p {
 .regula-cantautor{
     align-self: center;
 }
+
+@media (max-width: 1150px ) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo img {
+        height: 1000px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .pl {
+        align-items: center;
+        width: 100%;
+        padding: 50px 0 0;
+    }
+
+    .pr {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .duas-imagens {
+        width: 100%;
+    }
+
+    .self-rigth {
+        display: none;
+    }
+
+    .self-left {
+        width: 100%;
+    }
+
+    .duas-imagens-horizontal{
+        display: none;
+    }
+
+    .padding-top-0{
+        padding-top: 0;
+    }
+
+    .tira{
+        display: none;
+    }
+
+    .duas-imagens-vertical{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1100px ){
+    .conteudo img {
+        height: 850px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}

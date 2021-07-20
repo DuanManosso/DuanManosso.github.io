@@ -1,12 +1,14 @@
 footer {
     display: flex;
+    max-width: 100%;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 20px;
+    margin-bottom: 1px;
 }
 
 .logo-footer{
@@ -14,13 +16,14 @@ footer {
 }
 
 footer img {
-    width: 30px;
+    width: 40px;
 }
 
 .content-footer {
     font-size: 18px;
     display: flex;
-    width: 100%;
+    width: 900px;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
@@ -36,13 +39,24 @@ footer img {
     text-align: center;
 }
 
-@media (max-width: 780px) {
-    .content-footer{
-        height: 250px;
-        flex-direction: column;
+@media (max-width: 1080px) {
+
+    footer{
+        width: 100%;
+    }
+
+    #footer{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer > div > div{
+        margin: 30px 0 20px;
     }
 
     footer span {
         text-align: center;
+        margin: 10px 0;
     }
 }

@@ -15,20 +15,20 @@ body {
 
 @media (max-width: 1180px) {
     .container {
-        margin-left: 1.5em;
+        max-width: 95%;
     }
 }
 
 @media (max-width: 1020px) {
     .container {
-        max-width: 720px;
+        max-width: 95%;
         margin: 0 auto;
     }
 }
 
 @media (max-width: 780px) {
     .container {
-        max-width: 90%;
+        max-width: 97%;
         margin: 0 auto;
     }
 }

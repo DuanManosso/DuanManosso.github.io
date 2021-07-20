@@ -1,0 +1,64 @@
+body {
+    background-color: #59341F;
+}
+
+section {
+    padding: 140px 0;
+}
+
+@media (max-width: 980px) {
+    section{
+
+        padding: 70px;
+    }
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 75px;
+    font-family: 'Comic Neue', Arial, cursive;
+    font-weight: 900;
+}
+
+h2, h3{
+    font-size: 21px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
+    background-color: #fff;
+    color: #59341F;
+    border-radius: 40px;
+    text-align: left;
+}
+
+.carrosel {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrosel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
