@@ -1,12 +1,11 @@
 body {
     background-color: #59341F;
+    font-family: none;
 }
 
 section {
     padding: 140px 0;
 }
-
-
 
 .titulo {
     display: flex;
@@ -15,7 +14,6 @@ section {
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-bottom: 100px;
 }
 
 h1{
@@ -29,6 +27,12 @@ h2, h3{
     font-family: 'Roboto', Arial, sans-serif;
 }
 
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,7 @@ h2, h3{
     color: #59341F;
     border-radius: 40px;
     text-align: left;
+    padding-bottom: 20px;
 }
 
 .carrosel {
@@ -49,6 +54,7 @@ h2, h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .carrosel img{
@@ -58,6 +64,44 @@ h2, h3{
     
 }
 
+.indicador{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.indicador{
+    padding: 0 12px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0;
+}
+
+.indicador li{
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.indicador li img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    object-fit: cover;
+}
+
+.indicador li img:hover{
+    opacity: 1;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
 @media (max-width: 980px) {
     section{
         padding: 70px 5px;
@@ -65,5 +109,31 @@ h2, h3{
 
     .carrosel {
         height: 350px;
+    }
+
+    .indicador{
+        height:  90px;
+    }
+
+    .conteudo {
+        padding-bottom: 10px;
+    }
+
+    .indicador li img{
+        opacity: 1;
+    }
+
+    .mt-100{
+        margin-top: 10px;
+    }
+
+    h3{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 524px) {
+    .indicador{
+        height:  60px;
     }
 }
