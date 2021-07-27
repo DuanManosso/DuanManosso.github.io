@@ -48,20 +48,16 @@ h3{
 
 .carrosel {
     width: 100%;
-    height: 650px;
-    overflow: hidden;
+    height: 800px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    flex-direction: column;    
 }
 
 .carrosel img{
     width: 100%;
-    height: 100%;
+    height: 800px;
     object-fit: cover;
-    
+    overflow: hidden;
 }
 
 .indicador{
@@ -109,6 +105,12 @@ h3{
 
     .carrosel {
         height: 350px;
+    }
+
+    .carrosel img{
+    
+        height: 350px;
+        
     }
 
     .indicador{
