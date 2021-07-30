@@ -1,0 +1,104 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos | Guto Agostini</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../assets/style/common/style.css">
+    <link rel="stylesheet" href="../assets/style/videos/videos.css">
+    <link rel="stylesheet" href="../assets/style/common/header.css">
+    <link rel="stylesheet" href="../assets/style/common/footer.css">
+
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/header/logo.png" alt="Logo">
+        </a>
+        <input type="checkbox" id="menu-control" class="menu-control">
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/biografia.html">Biografia</a>
+                </li>
+                <li><a href="../pages/fotos.html">Fotos</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">CD-Fim de Ciclo</a></li>
+                <li><a href="#">CD-Maçanilha</a></li>
+                <li><a href="#">Radio</a></li>
+                <li><a href="#">Show Janelas Frente Sul</a></li>
+            </ul>
+            
+        </nav>
+        <label  class="hamburgue-icon" for="menu-control">
+            <img src="../assets/img/header/hamburger-icon.svg" alt="Abrir-menu">
+        </label>
+    </header>
+    <section>
+        <div class="conteudo container">
+            <h1>Vídeos</h1>
+            <p>Nesta aba você encontra vários vídeos que não estão relacionados diretamente com os shows. Outros
+                lugares, festivais, participações, solos, amadores, caseiros, e por aí vai.</p>
+            <div class="videos">
+                <div class="content">
+                    <h2>MILONGA URBANA – Festival 16o Canto da Lagoa de Encantado (Novembro de 2020)</h2>
+                    <iframe id="video-intro1" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen>Carregando...</iframe>         
+
+                </div>
+                <div class="content">
+                    <h2 class="respiro">Um canto pra minha morocha (vídeo amador)</h2>
+                    <iframe id="video-intro2" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen>Carregando...</iframe>                
+                    
+                </div>
+            </div>
+            <div class="videos">
+                <div class="content">
+                    <h2>Sina de um teatino (vídeo amador)</h2>
+                    <iframe id="video-intro3" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen>Carregando...</iframe>         
+
+                </div>
+                <div class="content">
+                    <h2 class="respiro">Roda de chimarrão Guto Agostini (Kleiton e Kledir cover)</h2>
+                    <iframe id="video-intro4" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write" allowfullscreen>Carregando...</iframe>                
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <a href="../index.html">
+            <img class="logo-footer" src="../assets/img/header/logo.png" alt="logo guto agostini">
+        </a>
+        <div id="footer" class="content-footer">
+            <span>Telefone: (54) 9 9991-3905</span>
+            <span>Email: gutovox@gmail.com</span>
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/guto.agostini.9?comment_id=Y29tbWVudDoyODQ1OTc3NTEyMzk3MjAxXzI4NDYyNTg5NjkwMzU3MjI%3D"><img src="../assets/img/footer/facebook.svg" alt="Link Facebok"></a>
+                <a target="_blank" href="https://open.spotify.com/artist/03KwUrwUtxToOz64zBAchp"><img src="../assets/img/footer/spotify.svg" alt="Link Spotify"></a>
+                <a target="_blank" href="https://gutoagostini.blogspot.com/"><img src="../assets/img/footer/blog.svg" alt="Link blog"></a>
+                <a target="_blank" href="https://www.instagram.com/guto_agostini_musico/"><img src="../assets/img/footer/instagram.svg" alt="Link instagram"></a>
+                <a target="_blank" href="https://www.youtube.com/c/GutoAgostini"><img src="../assets/img/footer/youtube.svg" alt="Link youtube"></a>
+            </div>
+        </div>
+        <span>Acompanhe também nas redes sociais e plataformas musicais</span>
+    </footer>
+</body>
+<script>
+    window.onload = function(){
+    document.getElementById('video-intro1').src = 'https://www.youtube.com/embed/RMXc8TzAdME?rel=0'
+    document.getElementById('video-intro2').src = 'https://www.youtube.com/embed/YvWLrcUIlTg?rel=0'
+    document.getElementById('video-intro3').src = 'https://www.youtube.com/embed/pCd75EbQjSY?rel=0'
+    document.getElementById('video-intro4').src = 'https://www.youtube.com/embed/MgHQfwBF3o8?rel=0'
+    };
+</script>
+</html>

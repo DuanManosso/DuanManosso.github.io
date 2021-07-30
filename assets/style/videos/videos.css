@@ -1,0 +1,102 @@
+:root{
+    --verde-principal: #53553d;
+    --marrom-principal: #59341F;
+    --cinza-fundo: #FCFCFC;
+}
+
+body{
+    background-color: var(--verde-principal);
+}
+
+section{
+    margin: 150px auto 50px auto;
+}
+
+h1{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center
+;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-fundo);
+    border-radius: 36px;
+    text-align: center;
+    color: var(--verde-principal);
+    font-family: 'Comic Neue', Arial, cursive;
+    padding: 50px 0;
+}
+
+.videos{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 80%;
+    height: 300px;
+}
+
+@media (max-width: 970px) {
+    .videos{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .respiro{
+        margin-top: 50px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    iframe{
+        height: 200px;
+    }
+
+    p{
+        width: 80%;
+    }
+
+    
+    h2{
+        font-size: 15px;
+        height: 80px;
+    }
+}
+
