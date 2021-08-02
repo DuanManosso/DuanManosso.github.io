@@ -1,0 +1,110 @@
+:root{
+    --verde-principal: #53553d;
+    --marrom-principal: #59341F;
+    --cinza-fundo: #FCFCFC;
+}
+
+.apresentacao{
+    background-color: var(--marrom-principal);
+    padding-top: 150px;
+    color: #fff;
+    font-family: 'Comic Neue', Arial, cursive;
+}
+
+.resumo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding: 30px 0 40px 0;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+
+.resumo p{
+    font-size: 1.4em;
+    width: 90%;
+}
+
+.capa-musicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.capa-musicas{
+    margin-top: 100px;
+}
+
+.musicas{
+    width: 50%;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.musicas a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.musicas li:hover{
+    cursor: pointer;
+    color:  #000;
+}
+
+.letras{
+    background-color: var(--cinza-fundo);
+}
+
+.conteudo-letras{
+    margin: 80px auto 80px auto;
+    background-color: var(--verde-principal);
+    border-radius: 80px;
+    text-align: center;
+}
+
+.carousel-item{
+    max-width: 100%;
+    height: 1200px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 50px 0;
+    font-family: 'Comic Neue', Arial, cursive;
+}
+
+.item h2{
+    height: 50px;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.item img{
+    margin: 20px;
+}
+
+.item p{
+    font-size: 1.4em;
+    width: 75%;
+}
+
+.item img:hover{
+    animation: gira 2s linear;
+}
+
+@keyframes gira {
+    0%{ transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+
