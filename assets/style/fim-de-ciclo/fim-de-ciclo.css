@@ -87,7 +87,7 @@ h1{
 }
 
 .item img{
-    margin: 20px;
+    margin: 22px;
 }
 
 .item p{
@@ -153,6 +153,7 @@ h1{
 
     .item img{
         width: 50px;
+        padding: 1px;
     }
 
     .item p{
