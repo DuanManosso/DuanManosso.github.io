@@ -99,6 +99,11 @@ h1{
     animation: gira 2s linear;
 }
 
+.macanilha{
+    max-height: 520px;
+    border-radius: 36px;
+}
+
 @keyframes gira {
     0%{ transform: rotate(0deg);}
     25%{transform: rotate(90deg);}
@@ -163,3 +168,5 @@ h1{
 
     
 }
+
+
