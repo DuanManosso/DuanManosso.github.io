@@ -1,0 +1,148 @@
+section {
+    position: relative;
+}
+
+section img {
+    width: 100%;
+    opacity: 0.98;
+}
+
+.sobreposicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Comic Neue', Arial, cursive;
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-family: 'Comic Neue', Arial, cursive;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.titulo p, .black, .white {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.black{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.white{
+    font-size: 18px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+}
+
+.section2{
+    width: 50%;
+    text-align: center;
+}
+
+.videos-janela{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.video-content{
+    width: 32%;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.video span{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.trabalhos{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h4{
+    padding: 5px 0;
+}
+
+@media (max-width: 980px) {
+    .titulo {
+        margin-top: 20px;
+    }
+    h1, h3{
+        font-size: 2em;
+    }
+
+    .titulo p, .black, .white{
+        font-size: 1em;
+    }
+
+    .section2{
+        width: 80%;
+    }
+
+    .videos-janela{
+        flex-direction: column;
+    }
+
+    .video-content{
+        width: 80%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .recuo{
+        padding-bottom: 0;
+    }
+
+}
+
+
+
+
