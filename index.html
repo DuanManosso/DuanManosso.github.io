@@ -107,8 +107,7 @@
             <form action="https://api.staticforms.xyz/submit" method="POST">
                 
                 <input type="hidden" name="accessKey" value="026967fe-8272-470b-83f6-1891dbc8cfb9"> <!-- Required -->
-                <input type="hidden" name="redirectTo" value="#">
-
+                
                 <label for="name">Nome</label>
                 <input id="name" type="text" name="name" placeholder="Ex: Maria Santos" required> 
                
@@ -118,6 +117,8 @@
                 <label for="message">Deixe sua mensagem</label>
                 <textarea id="message" name="message" rows="7" placeholder="Sua sugestão e/ou recado..." required></textarea>
                 
+                <input type="hidden" name="redirectTo" value="http://www.gutoagostini.com.br/pages/contato-sucesso.html">
+
                 <input class="submit" type="submit" value="Enviar"/>
             </form>
         </div>
@@ -145,5 +146,6 @@
     window.onload = function(){
     document.getElementById('video-intro').src = 'https://www.youtube.com/embed/oBGTlkw8oXA?rel=0'
     }
+
     </script>
 </html>
